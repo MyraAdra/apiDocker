@@ -42,7 +42,7 @@ export class AppComponent {
   //to https://api-dockerr.herokuapp.com/api/student/GetResults
 
   constructor(private apiCaller: HttpClient){
-    this.apiCaller.get('http://api-dockerr.herokuapp.com/api/student/getresults').subscribe((data : []) => {     
+    this.apiCaller.get('https://api-dockerr.herokuapp.com/api/student/getresults').subscribe((data : []) => {     
       this.Students = data;
 
       this.Students.forEach(element => {
