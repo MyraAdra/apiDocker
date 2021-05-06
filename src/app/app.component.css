@@ -1,0 +1,9 @@
+.Fail{
+    font-weight: bold;
+    color: red;
+}
+
+.Pass{
+    font-weight: bold;
+    color: green;
+}

@@ -1,0 +1,7 @@
+<div class="container">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor='let s of Students' > {{s.name}} : 
+     <span [ngClass]="{ 'Fail':s.pass==false , 'Pass':s.pass==true }">{{s.statement}}</span>
+    </li>
+  </ul>
+</div>
